@@ -1,0 +1,47 @@
+.noPaddingLeft.col-xs-12.col-sm-3{
+	padding-left: 0px;
+}
+.noMarginLeft.row{
+	margin-left: 0px;
+}
+.volunteerFormTitle{
+	color: #5e0000;
+	text-align: center;
+}
+section{
+	overflow-x:hidden;
+}
+#volunteersForm{
+	padding-top: 50px;
+}
+.r12 .btn{
+	width: 20%;
+}
+.r12{
+	margin-top: 50px;
+}
+.r1, .r2, .r3, .r4, .r5, .r6, .r7, .r8, .r9, .r10, .r11, .r12{
+	padding: 5px 0px;
+}
+.r1 input, .r2 input, .r3 input, .r4 input, .r5 input, .r7 input, .r10 input, .r11 input{
+	width: 80%;
+}
+
+.r6 span, .r9 span{
+	padding-left: 5px;
+}
+
+.otherInterestWrapper{
+	display: none;
+	padding: 20px 0px;
+	width: 80%;
+}
+
+@media (max-width: 776px){
+	.r1 input, .r2 input, .r3 input, .r4 input, .r5 input{
+		width: 100%;
+	}
+	.r12 .btn{
+		width: 100%;
+	}
+}
